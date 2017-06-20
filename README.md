@@ -59,7 +59,7 @@ The Elasticsearch behaviour and properties can be configured through the followi
 *   **setAwait** [defaultValue=false]
     > whether to block the execution once all Elasticsearch instances have started, so that the maven build will not proceed to the next step; use CTRL+C to abort the process
 
-*   **autoCreateIndex** [defaultValue=true]
+*   **autoCreateIndex** [defaultValue=false]
     > configuration of automatic index creation represented by _action.auto\_create\_index_ setting
 
 *   **logLevel** [defaultValue=INFO]
